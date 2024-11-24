@@ -1,7 +1,6 @@
   function slugify(title) {
-    return title.toLoverCase.join("-");
-
-}  
+   return title.toLoverCase.join('-');
+    }  
 
 console.log(slugify("Arrays for beginners")); // "arrays-for-beginners"
 console.log(slugify("English for developer")); // "english-for-developer"
